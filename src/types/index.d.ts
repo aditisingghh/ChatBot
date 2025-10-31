@@ -16,6 +16,7 @@ export interface MessagePart {
     topP: number;
     responseMimeType: string;
   }
+  //Typescript interface
 
   export interface ChatSettings {
     temperature: number;
