@@ -49,13 +49,14 @@ export default function MessageWindow({ history, darkMode, isLoading }: MessageW
               {/* Message bubble */}
               <div
                 className={`px-4 py-3 rounded-2xl text-sm sm:text-base shadow-md max-w-[80%] leading-relaxed 
-                   ${isUser
+                ${isUser
                     ? "bg-blue-500 text-white rounded-br-none"
-                    : "bg-gradient-to-r from-blue-50 via-pink-50 to-purple-50 text-gray-1000 border border-white/40 rounded-bl-none"
+                    : "bg-white/70 dark:bg-gray-800/70 text-gray-900 dark:text-gray-100 border border-white/30 dark:border-gray-700/40 rounded-bl-none"
                   }`}
               >
                 {text}
               </div>
+
 
 
               {/* User avatar */}
