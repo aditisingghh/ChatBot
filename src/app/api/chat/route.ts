@@ -6,6 +6,7 @@ import { ChatHistory, ChatSettings } from "@/types";
 
 export async function POST(request: Request) {
   // Function logic will go here
+  //backend logic 
   try {
     const { userMessage, history, settings } = (await request.json()) as {
       userMessage: string;
